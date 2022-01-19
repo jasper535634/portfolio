@@ -8,3 +8,29 @@ body{
 .text{
     color: white;
 }
+.logo{
+
+}
+.main_header{
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+.main_header ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.main_header li{
+padding: 0.5rem 1rem;
+
+}
+.main_header a{
+    text-decoration: none;
+    color: white;
+}
