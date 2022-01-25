@@ -34,3 +34,12 @@ padding: 0.5rem 1rem;
     text-decoration: none;
     color: white;
 }
+.footer{
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+    background-color: red;
+}
+.footer p{
+    color: white;
+}
