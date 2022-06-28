@@ -1,5 +1,10 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+background-color: black;
 
-
+}
 body, html {
 	margin: 0;
 	padding: 0;
@@ -26,6 +31,8 @@ body, html {
 	transform: translate(-50%, -50%);
 }
 
+
+
 #section1 {
 	background: #0A182E;
 	color: #81d2d5;
@@ -37,13 +44,13 @@ body, html {
 }
 
 #section3 {
-	background: #283044;
-	color: #686e7c;
+	background: #0A182E;
+	color: #81d2d5;
 }
 
 #section4 {
-	background: #ebf5ee;
-	color: #aeb9b9;
+	background: #0A182E;
+	color: #81d2d5;
 }
 
 
@@ -68,7 +75,6 @@ body, html {
 	padding: 20px;
 	position: fixed; 
 	width: 100%;
-	top: 20px;
 	z-index: 9;
 	padding-left: 10px;
 	background: rgba(0, 0, 0, 0.2);
@@ -103,8 +109,73 @@ gap: 50px;
 }
 .code-talen ul{
 	list-style-type: none;
+	font-size: 20px;
+	opacity: 0.8;
 }
 .small-tx{
 	font-size: 14px;
 }
 
+.examples{
+	display: flex;
+	text-align: center;
+	overflow: scroll;
+	overflow-y: hidden;
+	font-size: 20px;
+	opacity: 0.8;
+	
+}
+.example-0{
+	flex: 1;
+	padding: 1rem;
+	
+}
+.example-1{
+	flex: 1;
+	padding: 1rem;
+}
+.example-2{
+	flex: 1;
+	padding: 1rem;
+}
+.example-3{
+	flex: 1;
+	padding: 1rem;
+}
+.example-4{
+	flex: 1;
+	padding: 1rem;
+}
+.title-projecten{
+	margin: 0;
+	padding-top: 150px;
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+::-webkit-scrollbar {
+	width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+	background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background: #555; 
+  }
+
+.links{
+	font-size: 25px;
+	text-decoration: none;
+	
+}
+.links:hover{
+	color: red;
+}
+.links:active{
+	color: greenyellow;
+}
